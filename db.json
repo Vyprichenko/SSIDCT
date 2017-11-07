@@ -23,6 +23,7 @@
             "@context": "http://schema.org",
             "@type": "Thing",
             "name": "ReactJS + XMLHttpRequest",
+            "alternateName": "ecpkwqndgr",
             "identifier": "SSIDCT_test3",
             "description": "Проверяется индексирование поисковыми системами данных, полученных Ajax-запросом и добавленных в документ.",
             "url": "http://ssidct.azurewebsites.net/word.txt"
@@ -32,6 +33,7 @@
             "@context": "http://schema.org",
             "@type": "Thing",
             "name": "ReactJS + XMLHttpRequest CORS",
+            "alternateName": "zurvdwhqmm",
             "identifier": "SSIDCT_test4",
             "description": "Проверяется индексирование поисковыми системами данных, полученных кросс-доменным Ajax-запросом и добавленных в документ."
         }
