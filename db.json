@@ -1,0 +1,7 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Thing",
+    "name": "ReactJS + XMLHttpRequest CORS",
+    "identifier": "SSIDCT_test4",
+    "description": "Проверяется индексирование поисковыми системами данных, полученных кросс-доменным Ajax-запросом и добавленных в документ."
+}
