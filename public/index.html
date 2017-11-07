@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search Engine Indexing Dynamic Content Test</title>
+    <style>
+        html {
+            min-width: 320px;
+        }
+
+        body {
+            max-width: 50em;
+            padding: 0 2em;
+            margin: auto;
+        }
+
+        figure {
+            margin: 2em 40px 3em;
+        }
+
+        figcaption {
+            font-weight: bold;
+        }
+
+        footer {
+            display: flex;
+            padding: 10px 40px;
+        }
+
+        .alert {
+            color: crimson;
+        }
+    </style>
+    <script id="things" type="application/ld+json">
+        [
+        {
+            "@context": "http://schema.org",
+            "@type": "Thing",
+            "name": "JSON-LD",
+            "identifier": "SSIDCT_test1",
+            "description": "Проверяется индексирование микроразметки поисковыми системами.",
+            "disambiguatingDescription": "oonefadeso"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "Thing",
+            "name": "JSON-LD + ReactJS",
+            "alternateName": "obnnzsc9op",
+            "identifier": "SSIDCT_test2",
+            "description": "Проверяется индексирование поисковыми системами данных, перенесённых из блока микроразметки в тело документа."
+        }
+        ]
+    </script>
+</head>
+
+<body>
+    <h1>Индексация JSON-LD + ReactJS в ПС Google и Yandex</h1>
+    <p>Сайт проиндексирован, если поиск по ключевому слову <strong>abp_ssidct_a</strong> даёт результаты.</p>
+    <p>
+        С целью проверки индексации страниц, содержимое которых поставляется в формате JSON-LD,
+        <br> а представление генерируется на ReactJS, приводится следующий набор тестов:
+    </p>
+    <h2>Тесты</h2>
+    <div id="app"></div>
+    <footer>
+        <small>ABP 2017</small>
+    </footer>
+</body>
+
+<script type="text/javascript" src="js/builds/bundle.js"></script>
+
+</html>

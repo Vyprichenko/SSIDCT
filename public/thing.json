@@ -1,0 +1,8 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Thing",
+    "name": "ReactJS + XMLHttpRequest",
+    "alternateName": "ecpkwqndgr",
+    "identifier": "SSIDCT_test3",
+    "description": "Проверяется индексирование поисковыми системами данных, полученных Ajax-запросом и добавленных в документ."
+}
