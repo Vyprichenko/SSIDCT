@@ -1,7 +1,47 @@
 {
-    "@context": "http://schema.org",
-    "@type": "Thing",
-    "name": "ReactJS + XMLHttpRequest CORS",
-    "identifier": "SSIDCT_test4",
-    "description": "Проверяется индексирование поисковыми системами данных, полученных кросс-доменным Ajax-запросом и добавленных в документ."
+    "things": [
+        {
+            "id": 1,
+            "value": {
+                "@context": "http://schema.org",
+                "@type": "Thing",
+                "name": "JSON-LD",
+                "identifier": "SSIDCT_test1",
+                "description": "Проверяется индексирование поисковыми системами данных, представленных только в блоке микроразметки.",
+                "disambiguatingDescription": "oonefadeso"
+            }
+        },
+        {
+            "id": 2,
+            "value": {
+                "@context": "http://schema.org",
+                "@type": "Thing",
+                "name": "JSON-LD + ReactJS",
+                "alternateName": "obnnzsc9op",
+                "identifier": "SSIDCT_test2",
+                "description": "Проверяется индексирование поисковыми системами данных, перенесённых из блока микроразметки в тело документа."
+            }
+        },
+        {
+            "id": 3,
+            "value": {
+                "@context": "http://schema.org",
+                "@type": "Thing",
+                "name": "ReactJS + XMLHttpRequest",
+                "identifier": "SSIDCT_test3",
+                "description": "Проверяется индексирование поисковыми системами данных, полученных Ajax-запросом и добавленных в документ.",
+                "url": "http://ssidct.azurewebsites.net/word.txt"
+            }
+        },
+        {
+            "id": 4,
+            "value": {
+                "@context": "http://schema.org",
+                "@type": "Thing",
+                "name": "ReactJS + XMLHttpRequest CORS",
+                "identifier": "SSIDCT_test4",
+                "description": "Проверяется индексирование поисковыми системами данных, полученных кросс-доменным Ajax-запросом и добавленных в документ."
+            }
+        }
+    ]
 }
