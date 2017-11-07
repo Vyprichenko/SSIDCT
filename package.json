@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "private": true,
   "scripts": {
-    "start": "node http-server -d=False -i=False"
+    "start": "node ./node_modules/.bin/http-server"
   },
   "license": "Apache",
   "engines": {
