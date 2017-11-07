@@ -25,8 +25,7 @@
             "name": "ReactJS + XMLHttpRequest",
             "alternateName": "ecpkwqndgr",
             "identifier": "SSIDCT_test3",
-            "description": "Проверяется индексирование поисковыми системами данных, полученных Ajax-запросом и добавленных в документ.",
-            "url": "http://ssidct.azurewebsites.net/word.txt"
+            "description": "Проверяется индексирование поисковыми системами данных, полученных Ajax-запросом и добавленных в документ."
         },
         {
             "id": 4,
